@@ -1,5 +1,5 @@
 public class HelloWorld {
     public static void main(String[] args) {
-        System.out.println("Hello, Java in VS Code!12111");
+        System.out.println("Hello, Java in VS Code!");
     }
 }
