@@ -10,5 +10,3 @@ public class HelloWorld {
         System.out.println("Hello, Java in VS Code!");
     }
 }
-
-
