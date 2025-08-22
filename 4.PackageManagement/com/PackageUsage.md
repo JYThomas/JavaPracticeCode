@@ -47,3 +47,8 @@ myproject/                # 项目根目录
     Java 运行命令也是同样的道理，必须从 "书架"（根目录）开始，通过完整路径（包名 + 类名）查找类。
 
     总结：所有编译和运行命令都必须在项目根目录（myproject）下执行，这样 Java 才能正确识别包结构和类的位置。
+
+
+// 案例使用，先编译所有的包文件 然后再运行 Main 类 
+- javac com/example/shapes/*.java com/example/*.java
+- java com.example.Main
